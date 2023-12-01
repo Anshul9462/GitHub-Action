@@ -12,6 +12,4 @@ WORKDIR /go-microservice
 
 COPY --from=builder /go-microservice/ /go-microservice/
 
-EXPOSE 9090
-
 CMD ./microservice
